@@ -22,21 +22,6 @@ print(next(x))
 
 '''
 
-
-def myrange(n):
-    i=0
-    while i < n:
-        yield i
-        i+=1
-
-x=myrange(5)
-print(next(x))
-print(next(x))
-print(next(x))
-print(next(x))
-print(next(x))
-print(next(x))
-
 ##for i in x:
 ##    print(i)
 
