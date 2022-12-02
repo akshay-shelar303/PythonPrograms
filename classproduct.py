@@ -1,0 +1,30 @@
+class Product:
+    def display(self):
+        print(self.productid)
+        print(self.productname)
+        print(self.expdate)
+        print(self.weight)
+        
+print("product Details")
+p1=Product()
+p1.productid=int(input("Enter product id="))
+p1.productname=input("Enter product name=")
+p1.expdate=int(input("enter expiry date="))
+p1.weight=int(input("Enter product weight="))
+p1.display()
+   
+print("product Details")
+p2=Product()
+p2.productid=int(input("Enter product id="))
+p2.productname=input("Enter product name=")
+p2.expdate=int(input("enter expiry date="))
+p2.weight=int(input("Enter product weight="))
+p2.display()
+
+print("product Details")
+p3=Product()
+p3.productid=int(input("Enter product id="))
+p3.productname=input("Enter product name=")
+p3.expdate=int(input("enter expiry date="))
+p3.weight=int(input("Enter product weight="))
+p3.display()
